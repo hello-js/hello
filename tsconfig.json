@@ -5,13 +5,15 @@
     "lib": ["esnext"],
     "module": "commonjs",
     "moduleResolution": "node",
+    "declaration": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./lib/*"]
     },
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "typeRoots": ["./node_modules/@types", "./types"],
     "skipLibCheck": true
   }
 }
