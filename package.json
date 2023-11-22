@@ -1,7 +1,15 @@
 {
   "name": "hello",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "👋 Hello from GitHub profiles. On the command line",
+  "homepage": "https://github.com/hello-js/hello#readme",
+  "bugs": {
+    "url": "https://github.com/hello-js/hello/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hello-js/hello.git"
+  },
   "license": "MIT",
   "author": "Matt Venables <matt@venabl.es>",
   "main": "dist/index.js",
