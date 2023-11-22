@@ -11,3 +11,7 @@ npx hello venables
 ```sh
 npx hello <github-username>
 ```
+
+## Preview
+
+![preview](./preview.png)
